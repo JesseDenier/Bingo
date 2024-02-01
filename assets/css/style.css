@@ -12,6 +12,10 @@ header {
   color: white;
 }
 
+.custom-max-width {
+  max-width: 650px;
+}
+
 .card {
   aspect-ratio: 1 / 1;
   align-items: center;
