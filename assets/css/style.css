@@ -1,0 +1,12 @@
+body {
+  background-color: pink;
+  font-size: 1vw;
+}
+
+header {
+  background-color: palevioletred;
+}
+
+.card {
+  aspect-ratio: 1 / 1;
+}
