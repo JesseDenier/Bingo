@@ -1,12 +1,20 @@
 body {
   background-color: pink;
-  font-size: 1vw;
+  font-size: calc(1.25vw + 4px);
 }
 
 header {
   background-color: palevioletred;
+  color: white;
 }
 
 .card {
   aspect-ratio: 1 / 1;
+  align-items: center;
+  justify-content: center;
+  color: darkred;
+}
+
+.heart-image {
+  max-width: 90% !important;
 }
