@@ -1,3 +1,7 @@
+p {
+  margin-bottom: 0;
+}
+
 body {
   background-color: pink;
   font-size: calc(1.25vw + 4px);
@@ -17,4 +21,11 @@ header {
 
 .heart-image {
   max-width: 90% !important;
+}
+
+footer {
+  background-color: palevioletred;
+  color: white;
+  position: absolute;
+  bottom: 0;
 }
