@@ -4,7 +4,7 @@ p {
 }
 
 h1 {
-  font-size: calc(1rem + 1.75vw);
+  font-size: calc(0.75rem + 2vw);
   font-family: "Dancing Script", cursive;
 }
 
