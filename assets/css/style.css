@@ -1,8 +1,18 @@
+/* Makes it so default p text doesn't have margins and is a good size for all devices. */
 p {
-  margin-bottom: 0;
+  margin: 0;
   font-size: clamp(1px, calc(1.25vw + 4px), 18px);
 }
 
+/* Makes it so default h1 text doesn't have margins, has a nice font, and is a good size for all devices. */
+h1 {
+  margin: 0;
+  font-size: calc(0.75rem + 2vw);
+  font-family: "Style Script", cursive;
+  color: white;
+}
+
+/* Removes blue color from all links. */
 a,
 a:hover,
 a:active,
@@ -10,40 +20,20 @@ a:visited {
   color: white;
 }
 
-h1 {
-  font-size: calc(0.75rem + 2vw);
-  font-family: "Style Script", cursive;
-}
-
-.color-pink {
+/* Custom classes that apply background colors. */
+.bg-color-pink {
   background-color: pink;
 }
-
-button {
-  color: white;
-  border: 0;
-  padding: 0;
-  margin: 0;
-  font-size: clamp(1px, calc(1vw + 3px), 18px);
-}
-
-button * {
-  color: white;
-  border: 0;
-  padding: 0;
-  margin: 0;
-  font-size: clamp(1px, calc(1.25vw + 4px), 18px);
-}
-
-header {
+.bg-color-darkpink {
   background-color: palevioletred;
-  color: white;
 }
 
+/* Custom class that maxes width at 650px. */
 .custom-max-width {
   max-width: 650px;
 }
 
+/* Sets all cards height equal to width, centers content inside, and applies a dark red font color. */
 .card {
   aspect-ratio: 1 / 1;
   align-items: center;
@@ -51,28 +41,20 @@ header {
   color: darkred;
 }
 
-.card {
-  position: relative;
-}
-
+/* Allows the heart image to appear on top of the text, be the right size inside each card container, and be transparent. */
 .heart-image {
   position: absolute;
   max-width: 90% !important;
   opacity: 0.75;
 }
 
+/* Sets font inside the footer to white.  */
 footer {
-  background-color: palevioletred;
   color: white;
-  position: absolute;
-  bottom: 0;
 }
 
-.bottom-button {
-  color: white;
-  border: 0;
-  padding: 0;
-  margin: 0;
+/* Custom class that sets font size and removes the underline auto applied to links. */
+.bottom-btn {
   font-size: clamp(1px, calc(1.25vw + 4px), 18px);
   text-decoration: none;
 }
