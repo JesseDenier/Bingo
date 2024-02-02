@@ -1,6 +1,6 @@
 p {
   margin-bottom: 0;
-  font-size: calc(1.25vw + 4px);
+  font-size: clamp(4px, calc(1.25vw + 4px), 18px);
 }
 
 h1 {
@@ -37,4 +37,6 @@ footer {
   color: white;
   position: absolute;
   bottom: 0;
+  padding-left: 20px;
+  padding-right: 20px;
 }
