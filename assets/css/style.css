@@ -1,6 +1,13 @@
 p {
   margin-bottom: 0;
-  font-size: clamp(4px, calc(1.25vw + 4px), 18px);
+  font-size: clamp(1px, calc(1.25vw + 4px), 18px);
+}
+
+a,
+a:hover,
+a:active,
+a:visited {
+  color: white;
 }
 
 h1 {
