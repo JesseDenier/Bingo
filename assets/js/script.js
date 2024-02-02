@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  // Adds a hidden heart img to every card on page load.
+  // Adds a hidden transparent heart img to every card on page load.
   $("<img>")
     .attr("src", "assets/imgs/Heart.png")
     .hide()
@@ -18,7 +18,7 @@ $(document).ready(function () {
 });
 
 $(".card").on("click", function () {
-  // Toggle between hiding text/showing heart and hiding heart/showing text in each card.
+  // Toggle between hiding/showing heart in each card.
   $(this).find("img").toggle();
   // Sets variable "currentState" to true if img is visible, false if not.
   var currentState = $(this).find("img").is(":visible");
