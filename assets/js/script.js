@@ -12,14 +12,14 @@ $(document).ready(function () {
     var savedState = localStorage.getItem("cardState_" + $(this).attr("id"));
     // Applies the correct toggle state depending on truthiness of savedState.
     if (savedState === "true") {
-      $(this).find("*").toggle();
+      $(this).find("img").toggle();
     }
   });
 });
 
 $(".card").on("click", function () {
   // Toggle between hiding text/showing heart and hiding heart/showing text in each card.
-  $(this).find("*").toggle();
+  $(this).find("img").toggle();
   // Sets variable "currentState" to true if img is visible, false if not.
   var currentState = $(this).find("img").is(":visible");
   // Pushes a localStorage item for each card with its ID, and adds a truthy value to it.

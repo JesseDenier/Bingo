@@ -51,8 +51,14 @@ header {
   color: darkred;
 }
 
+.card {
+  position: relative;
+}
+
 .heart-image {
+  position: absolute;
   max-width: 90% !important;
+  opacity: 0.75;
 }
 
 footer {
